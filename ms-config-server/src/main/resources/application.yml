@@ -2,8 +2,6 @@ server:
   port: 7070
 
 
-
-
 spring:
   application:
     name: config-server
@@ -13,4 +11,11 @@ spring:
         git:
           uri: https://github.com/Lanzeloth03/DAD-2024-G1.git # ruta del repositorio git
           searchPaths: config-data
+          #username:
+          #password:
           default-label: main
+
+  security:
+    user:
+      password: 123456
+      name: root
